@@ -1,0 +1,601 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: Noto Serif;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    font-size: 36px;
+    line-height: 49px;
+    color: #FFFFFF;
+    margin-top: 500px;
+}
+
+h2 {
+    font-family: Noto Serif;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    line-height: 41px;
+    margin-top: 15px; 
+    margin-bottom: 0;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0px;
+}
+
+header {
+    background: url(img/bgc.jpg) no-repeat top;
+    justify-content: center;
+    height: 915px;
+    margin: 0;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.head {
+    margin: 0 auto;
+    display: flex;
+}
+
+.nav {
+    display: flex;
+    margin-top: 42px;
+    justify-content: space-between;
+    width: 421px;
+}
+
+.top {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration-line: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    white-space: nowrap;
+}
+
+.top:hover {
+    color: rgb(172, 172, 172);
+    transition: all 0.5s ease;
+}
+
+.logo {
+    margin-top: 25px;
+    margin-left: 126px;
+    margin-right: 102px;
+}
+
+.search {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between; 
+    margin-top: 43px;
+}
+
+
+.icons {
+    width: 18px;
+    height: 18px;
+}
+
+.zoom {
+    margin-right: 16px;
+}
+
+.btn {
+    margin-top: 65px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.catalogue {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 1px solid #fff;
+    background: #333333;
+    padding: 15px 35px;
+    transition: all 0.5s ease;
+}
+
+.catalogue:hover {
+    background-color: rgb(114, 113, 113);
+    color: antiquewhite;
+    transition: all 0.5s ease;
+}
+
+.coco {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    padding-top: 30px;
+}
+
+.coco-icon {
+    border-right: 1px solid white;
+    padding-right: 15px;
+}
+
+.goods {
+    background: #F9F9F9;
+    margin: 0;
+    padding-top: 100px;
+}
+
+.event {
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 140%;
+    text-align: center;
+    color: #333333;
+}
+
+.beauty {
+    color: #333333;
+    margin-bottom: 60px;
+}
+
+.choises {
+    display: flex;
+    justify-content: space-between;
+}
+
+.choise {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.1em;    
+    text-decoration: none;
+    background: #F9F9F9;
+    border: 1px solid #D6D6D6;
+    box-sizing: border-box;
+    width: 165px;
+    color: #333333;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.choise:hover {
+    background: #7e7d7d;
+    transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.types {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: space-between;
+    row-gap: 30px;
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+
+.type {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    justify-content: space-between;
+}
+
+.type:hover {
+    background-color: rgb(109, 109, 109);
+    opacity: 0.7;
+    transition: all 0.5s ease;
+}
+
+.rigs {
+    background-image: url(img/Rectangle\ 5.jpg);
+    background-repeat: no-repeat;
+    text-decoration: none;
+    width: 350px;
+    height: 50px;
+    padding-top: 222px;
+}
+
+.earring {
+    background-image: url(img/Rectangle\ 5-3.jpg);
+    background-repeat: no-repeat;
+    text-decoration: none;
+    width: 350px;
+    height: 50px;
+    padding-top: 222px;
+}
+
+.necklace {
+    background-image: url(img/Rectangle\ 5-2.jpg);
+    background-repeat: no-repeat;
+    text-decoration: none;
+    width: 350px;
+    height: 50px;
+    padding-top: 222px;
+}
+
+.wirst {
+    background-image: url(img/Rectangle\ 5-1.jpg);
+    background-repeat: no-repeat;
+    text-decoration: none;
+    width: 350px;
+    height: 50px;
+    padding-top: 222px;
+}
+
+.bracers {
+    background-image: url(img/Rectangle\ 5-4.jpg);
+    background-repeat: no-repeat;
+    text-decoration: none;
+    width: 350px;
+    height: 50px;
+    padding-top: 222px;
+}
+
+.watches {
+    background-image: url(img/Rectangle\ 5-5.jpg);
+    background-repeat: no-repeat;
+    text-decoration: none;
+    width: 350px;
+    height: 50px;
+    padding-top: 222px;
+}
+
+.salons {
+    background-image: url(img/Rectangle\ 6.png);
+    background-size: contain;
+    margin: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.what {
+    font-size: 21px;
+    line-height: 140%;
+    color: #FFFFFF;  
+    font-weight: 300;  
+}
+
+.salons h2 {
+    font-family: Noto Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #FFFFFF; 
+    margin-bottom: 45px; 
+}
+
+.lorem {
+    width: 750px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 140%;
+    color: #FFFFFF;  
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 75px;
+}
+
+.salons .catalogue {
+    border: 1px solid #333333;
+    background: #fff;
+    color: #333333;
+}
+
+.salons .catalogue:hover {
+    background: rgb(114, 114, 114);
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+.salons .btn {
+    margin-bottom: 0px;
+}
+
+.articles {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 140%;
+    text-align: center;
+    color: #333333;  
+    margin-top: 120px;  
+}
+
+.advises h2 {
+    margin-bottom: 60px;
+}
+
+.posts {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 75px;
+}
+
+.advise {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;    
+}
+
+.advise:hover {
+    opacity: 0.7;
+    transition: all 0.5s ease;
+    
+}
+
+.watch {
+    background-image: url(img/Rectangle\ 1234235.jpg);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding: 248px 75px 35px 75px;
+    width: 350px;
+    height: 370px;
+
+}
+
+.trink {
+    background-image: url(img/Rectangle\ 6-1.jpg);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding: 248px 65px 35px 65px;
+    width: 350px;
+    height: 370px;
+}
+
+.ring {
+    background-image: url(img/Rectangle\ 6-2.jpg);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding: 248px 60px 35px 60px;
+    width: 350px;
+    height: 370px;
+}
+
+.advises .btn {
+    margin-bottom: 15px;
+}
+
+.media{
+    padding-bottom: 150px;
+    box-sizing: content-box;
+}
+
+.media p {
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 140%;
+    text-align: center;
+    color: #333333;
+    margin-top: 135px;
+}
+
+.media h2 {
+    color: #333333;
+    margin-bottom: 60px;
+}
+
+.wraper {
+    display: grid;
+    grid-template-columns: repeat(4, 278px);
+    grid-template-rows: auto;
+}
+
+.pic1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.pic1:hover {
+    opacity: 0.7;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.pic:hover {
+    opacity: 0.7;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.form {
+    background-image: url(img/Rectangle\ 9.jpg);
+}
+
+.form {
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+.form h2 {
+    font-family: Noto Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #FFFFFF; 
+    margin-bottom: 45px;
+}
+
+.form li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 140%;
+    color: #FFFFFF; 
+    font-weight: 300;   
+    list-style-image: url(img/Polygon\ 2.png);
+    padding-left: 10px;
+    justify-content: space-between;
+    
+}
+
+.list-form {
+    display: flex;
+    width: 873px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.block {
+    width: 448px;
+    height: 113px;
+    border: solid 1px white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.send {
+    width: 418px;
+    height: 85px;
+    background-color: #fff;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 20px 22px;
+}
+
+.email {
+    width: 200px;
+    height: 45px;
+    background: #FFFFFF;
+    border: 1px solid #D6D6D6;
+    box-sizing: border-box;
+    width: 200px;
+    height: 45px;
+    padding-left: 20px;
+}
+
+.form .catalogue {
+    font-size: 14px;
+    width: 159px;
+    height: 45px;
+    padding: 14px 35px;
+}
+
+footer {
+    display: flex;
+    padding-top: 100px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #333333;    
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #333333;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info p {
+    font-size: 14px;
+    line-height: 150%;
+    color: #333333;  
+    text-align: left;
+    letter-spacing: 0.005em;
+    margin-bottom: 21px;  
+}
+
+.info-block {
+    width: 255px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+footer a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #333333;  
+    text-decoration: none;
+}
+
+.delivery {
+      margin-bottom: 15px;
+}
+
+.visa {
+    margin-right: 21px;
+}
+
+.contacts {
+    display: flex;
+}
+
+.contacts img {
+    width: 20px;
+    height: 16px;
+    margin-right: 20px;
+    justify-content: center;
+}
+
+.media-icons {
+    margin-top: 7px;
+    display: flex;
+    justify-content: space-around;
+    width: 210px;
+}
+
+.last {
+    display: flex;
+    line-height: 150%;
+    color: #333333;  
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: #333 solid 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
