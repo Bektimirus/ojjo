@@ -541,6 +541,7 @@ h3 {
     width: 255px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 60px;
 
 }
 
